@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+
+        </script>
+        <style>
+            .carousel-caption{
+            color: #fff;
+            position: absolute;
+            top: 27%;
+            left: 182px;
+            }
+            h2{
+                font-size: 70px;
+                font-weight: bold;
+                border-bottom-color: #82c434;
+            }
+        </style>
+</head>
+<body>
+    <!--slider div start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="s">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#s" data-bs-slide-to="0" class="active">
+            </button>
+            <button type="button" data-bs-target="#s" data-bs-slide-to="1" >
+            </button>
+
+
+        </div>
+     <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.firstfiddle.in/assets/images/home%20page%20banner/diablo.jpg" alt="" class="w-100">
+
+              <div class="carousel-caption">
+                <h2>Hello digital</h2>
+
+              </div>
+        </div>
+        <div class="carousel-item ">
+            <img src="https://www.firstfiddle.in/assets/images/home%20page%20banner/bougie.jpg" alt="" class="w-100">
+            <div class="carousel-caption" >
+                <h2>Hello digital</h2>
+            </div>
+        </div>
+
+     </div><!--carousel inner end-->
+     <button class="carousel-control-prev" type="button" data-bs-target="#s" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#s" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+     </button>
+
+
+    </div><!--carousel div end-->
+    
+</body>
+</html>
